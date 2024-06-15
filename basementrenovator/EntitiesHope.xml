@@ -1,0 +1,34 @@
+<data>
+
+<tab Name="Hope (Teaser)" />
+
+<group Name="Hope (Teaser)">
+    <group Name="Ch 1" Label="Ch 1 Enemies" />
+    <group Name="Ch 1.1" Label="Ch 1.1 Enemies" />
+</group>
+
+<!--From Hope Directly-->
+<group Name="Ch 1">
+   <entity ID="161" Variant="0" Name="Fivehead" Image="mah boys/fivehead.png"/>
+   <entity ID="161" Variant="1" Subtype = "67" Name="Floater" Image="mah boys/floater.png"/>
+   <entity ID="161" Variant="3" Subtype = "1" Name="Neutral Fly" Image="mah boys/neutralfly.png"/>
+</group>
+
+<group Name="Ch 1.1">
+   <entity ID="90" Variant="1" Subtype="0" Name="Dried" Image="mah boys/dried.png">
+        <bitfield Key="Subtype">
+            <dropdown Length="7">
+                <choice Value="0">Random</choice>
+                <choice Value="1">Black</choice>
+                <choice Value="2">White</choice>
+                <choice Value="3">Brown</choice>
+                <choice Value="4">Green</choice>
+                <choice Value="5">Yellow</choice>
+                <choice Value="6">Red</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+</group>
+
+
+</data>
